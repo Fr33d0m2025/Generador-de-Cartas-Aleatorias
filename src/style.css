@@ -1,5 +1,44 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+*{
+    margin: 0;
+    padding: 0;
+}
 
+html,
 body{
-    background: white;
+    height: 100vh;
+}
+
+body {
+    background: rgb(26, 133, 5);
+    display: flex;
+    align-items: center;
+}
+
+#card {
+    margin: auto;
+    width: 480px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgb(32, 20, 20);
+    padding: 20px;
+}
+
+span{
+    font-size: 150px;
+    text-align: start;
+    line-height: 85px;
+}
+
+#center {
+    font-size: 300px;
+    text-align: center;
+}
+
+#bottom {
+    transform: rotate(180deg);
 }
